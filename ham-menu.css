@@ -13,7 +13,7 @@ body{
   --foreground: #333;
   --background: white;
   --hamburge-margin: 5px;
-  --animation-timing: 200ms ease-in-out;
+  --animation-timing: 300ms ease-in-out;
   --hamburger-height: calc(var(--bar-height)*3 + var(--hamburger-gap)*2);
   
 }
@@ -27,7 +27,7 @@ body{
   width: max-content;
   position: absolute;
   top: var(--hamburge-margin);
-  left: var(--hamburge-margin);
+  right: var(--hamburge-margin);
   z-index: 2;
   cursor: pointer;
 }
@@ -52,7 +52,8 @@ body{
   background-color: var(--foreground);
   border-radius: 9999px;
   transform-origin: left center;
-  transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing), -color var(--animation-timing);
+  transition: opacity var(--animation-timing), width var(--animation-timing), rotate var(--animation-timing), translate var(--animation-timing), -color var(--animation-timing),
+  display var(--animation-timing);
 }
 
 .hamburger-menu input{
@@ -81,16 +82,20 @@ body{
 }
 
 .sidebar{
+  position: absolute;
+  right: 0;
   transition: translate var(--animation-timing);
-  translate: -100%;
+  translate: 100px;
   padding: 0.5rem 1rem;
   padding-top: calc(var(--hamburger-height) + var(--hamburge-margin) + 1rem);
   background-color: var(--foreground);
   color: var(--background);
   max-width: 10rem;
   min-height: 100vh;
+  display: none;
 }
 
 .hamburger-menu:has(input:checked) + .sidebar{
   translate: 0;
+  display: flex;
 }

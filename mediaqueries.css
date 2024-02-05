@@ -50,24 +50,45 @@
   
 
 @media screen and (max-width: 600px) {
-  #contact, footer{
-    height: 40vh;
+  #contact,
+    footer {
+      height: 40vh;
+  
+    }
 
-  }
+    #profile{
+      margin-bottom: 0;
+    }
 
-  article{
-    font-size: 1rem;
-  }
+    article {
+      font-size: 1rem;
+    }
 
-  footer nav{
-    height: fit-content;
-    font-size: smaller;
-    margin-bottom: 2rem;
-  }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
 
-  .contacct-info-upper-container{
-    flex-wrap: wrap;
-    flex-direction: column;
-  }
+    .about-container,
+    .contacct-info-upper-container,
+    .btn-container {
+      display: flex;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+  
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+  
+    .about-containers,
+    .about-details-container {
+      display: flex;
+      flex-direction: column;
+    }
+
+  
 }
 

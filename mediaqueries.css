@@ -46,6 +46,7 @@
       flex-wrap: wrap;
       flex-direction: column;
     }
+       
 }
   
 
@@ -53,7 +54,6 @@
   #contact,
     footer {
       height: 40vh;
-  
     }
 
     #profile{
@@ -69,11 +69,18 @@
       margin-bottom: 2rem;
     }
 
+   
+
     .about-container,
     .contacct-info-upper-container,
     .btn-container {
       display: flex;
     }
+
+    .contacct-info-upper-container{
+      flex-direction: column;
+    }
+
     .contact-info-container {
       margin: 0;
     }
@@ -87,6 +94,15 @@
     .about-details-container {
       display: flex;
       flex-direction: column;
+    }
+
+
+    .contact-info-container {
+      margin: 0.5rem;
+    }
+    
+    .color-container{
+      max-width: 275px;
     }
 
   

@@ -213,11 +213,16 @@ section{
   gap: 1rem;
 }
 
+
 /* ICON */
 
 .icon{
   cursor: pointer;
   height: 2rem;
+}
+.icon2 {
+  cursor: pointer;
+  height: 2.5rem;
 }
 
 /* BUTTONS */

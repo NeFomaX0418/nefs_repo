@@ -287,7 +287,6 @@ section{
 
 #about{
   position: relative;
-  min-height: 96vh;
 }
 
 .about-containers{
@@ -346,7 +345,6 @@ section{
 
 #experience{
   position: relative;
-  height: 96vh;
 }
 
 .experience-sub-title{
@@ -386,7 +384,6 @@ article.icon{
 
 #projects{
   position: relative;
-  height: 96vh;
 }
 
 .color-container{

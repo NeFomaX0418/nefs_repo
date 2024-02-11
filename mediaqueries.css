@@ -104,6 +104,9 @@
     .color-container{
       max-width: 275px;
     }
+    .modal-content img {
+      max-width: 40%;
+    }
 
   
 }

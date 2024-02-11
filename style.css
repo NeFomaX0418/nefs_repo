@@ -228,7 +228,20 @@ section{
   gap: 1rem;
 
 }
-.btn{
+
+#btn_download {
+  font-weight: 600;
+  transition: 300ms ease;
+  padding: 1rem;
+  width: 8rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-size: smaller;
+
+}
+
+
+.btn {
   font-weight: 600;
   transition: 300ms ease;
   padding: 1rem;
@@ -479,12 +492,12 @@ footer p{
   /* Could be more or less, depending on screen size */
 }
 
-.modal-content img{
-  max-width: 40%;
+.modal-content video{
+  max-width: 80%;
 }
 
 /* The Close Button */
-.close {
+.close,.close2 {
   color: #aaa;
   float: right;
   font-size: 28px;
@@ -492,7 +505,9 @@ footer p{
 }
 
 .close:hover,
-.close:focus {
+.close:focus,
+.close2:hover,
+.close2:focus {
   color: black;
   text-decoration: none;
   cursor: pointer;

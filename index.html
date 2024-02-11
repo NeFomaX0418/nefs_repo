@@ -184,21 +184,11 @@
             <h2 class="experience-sub-title project-title">Capstone Project: eProdel</h2>
             <div class="btn-container">
               <!-- Trigger/Open The Modal -->
-              <button id="myBtn" class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.figma.com/proto/84wo8dfftUfrPi5GIcQtsZ/EPRODEL?type=design&node-id=5-12&t=h5nv1BLjZvDiAVEz-0&scaling=contain&page-id=5%3A9&starting-point-node-id=5%3A12')">
                 Presentation
               </button>
-              <!-- The Modal -->
-              <div id="myModal" class="modal">
               
-                <!-- Modal content -->
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <img src="./assets/Project1_EProDel.png" alt="eprodel">
-                  <p>Some text in the Modal..</p>
-                </div>
-              
-              </div>
-              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.figma.com/proto/84wo8dfftUfrPi5GIcQtsZ/EPRODEL?type=design&node-id=5-12&t=h5nv1BLjZvDiAVEz-0&scaling=contain&page-id=5%3A9&starting-point-node-id=5%3A12;'">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://www.figma.com/proto/84wo8dfftUfrPi5GIcQtsZ/EPRODEL?type=design&node-id=233-202&t=h5nv1BLjZvDiAVEz-0&scaling=contain&page-id=5%3A9&starting-point-node-id=233%3A202&show-proto-sidebar=1')">
                 Demo
               </button>
             </div>
@@ -211,12 +201,32 @@
             </div>
             <h2 class="experience-sub-title project-title">Mini Traffic Light and Drawbridge Simulation</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" onclick="lcation.href='https://github.com/'">
+              <button class="btn btn-color-2 project-btn" onclick="window.open('https://docs.google.com/presentation/d/13KptVz46HoH5PFXn2Qe0G0kh2ar9mX5p/edit#slide=id.p12')">
                 Presentation
               </button>
-              <button class="btn btn-color-2 project-btn" onclick="lcation.href='https://github.com/'">
+              <button id="myBtn" class="btn btn-color-2 project-btn" onclick="location.href=''">
                 Watch Demo
               </button>
+
+              <!-- The Modal -->
+              <!-- id="myBtn" -->
+              <div id="myModal" class="modal">
+              
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <video  controls>
+                    <source src="./assets/Arduino_Project.mp4" type="video/mp4">
+                  </video>
+                  <h2>Mini Traffic Light and Drawbridge Simulation</h2>
+                  <h3>
+                    Arduino IDE • Arduino Programming Language <br><br>
+                  </h3>
+                  <p>Under IT Elective 3: Internet of Things, the main objective of this subject is to utilize sensors to achieve a fully automated system that can be applied in the real world projects. Mini Traffic Light and Drawbridge Simulation is develop using Arduino IDE and Arduino Programming Language that is based on C++. With the integration of various sensors, such as Light Dependent Resistors and Ultrasonic Sensors, their main functions are to trigger light switches and operate motor for smart movable bridge. This is only a small prototype but when scaled into real world machineries, this can help day to day mechanical jobs with less monitoring and minimal human effort. </p>
+                </div>
+              
+              </div>
+
             </div>
           </div>
           </div>
@@ -227,12 +237,41 @@
             </div>
             <h2 class="experience-sub-title project-title">Game Dev Project: The Chase</h2>
             <div class="btn-container">
-              <button class="btn btn-color-2 project-btn" href="./assets/TheChase.1.7.3.apk" download>
+              <a id="btn_download" class="btn btn-color-2 project-btn" href="./assets/TheChase.1.7.3.apk" download="The_Chase">
                 Download App
-              </button>
-              <button class="btn btn-color-2 project-btn" onclick="lcation.href='https://github.com/'">
+              </a>
+              <button id="myBtn2" class="btn btn-color-2 project-btn" onclick="location.href=''">
                 Watch Demo
               </button>
+
+              <!-- The Modal -->
+              <!-- id="myBtn" -->
+              <div id="myModal2" class="modal">
+              
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close2">&times;</span>
+                  <video controls>
+                    <source src="./assets/TheChase.mp4" type="video/mp4">
+                  </video>
+                  <h2>The Chase - 2D Endless Running Game</h2>
+                  <h3>
+                    Unity 2D • C# Programming Language <br><br>
+                  </h3>
+                  <p>The Chase is a classic 2D endless running game and only have a single level since it was just for project purposes. It was developed using Unity and mainly uses C# as programming languge. It uses some
+                    Scripting API such as
+                    PlayerPrefs classes that can store variables according to Player preferences between game sessions.
+                    Scoring systems are realized by utilizing game properties such as
+                    colliders,
+                    contactCounts,
+                    rigidBody, etc., and uses basic
+                    Quaternion for navigation. 
+                    
+                  </p>
+                </div>
+              
+              </div>
+
             </div>
           </div>
         </div>

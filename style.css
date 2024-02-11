@@ -385,6 +385,7 @@ article.icon{
 
 #projects{
   position: relative;
+  height: 96vh;
 }
 
 .color-container{
@@ -415,6 +416,7 @@ article.icon{
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  height: 96vh;
 }
 
 .contact-info-upper-container{

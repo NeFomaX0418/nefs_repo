@@ -287,6 +287,7 @@ section{
 
 #about{
   position: relative;
+  min-height: 96vh;
 }
 
 .about-containers{
@@ -416,7 +417,6 @@ article.icon{
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  height: 96vh;
 }
 
 .contact-info-upper-container{
